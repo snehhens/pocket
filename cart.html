@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart - Pocket Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Pocket Shop</div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="products.html">Products</a>
+                    <a href="categories.html">Categories</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="login.html">Login</a>
+                    <a href="signup.html">Sign Up</a>
+                    <a href="cart.html" class="cart-icon">🛒</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="cart-section">
+            <div class="container">
+                <h1>Your Shopping Cart</h1>
+                <div class="cart-items">
+                    <div class="cart-item">
+                        <img src="product1.jpg" alt="Smartphone">
+                        <div class="item-details">
+                            <h3>Latest Smartphone</h3>
+                            <p>Price: $699.99</p>
+                            <div class="quantity">
+                                <button class="quantity-btn">-</button>
+                                <input type="number" value="1" min="1">
+                                <button class="quantity-btn">+</button>
+                            </div>
+                        </div>
+                        <button class="remove-item">Remove</button>
+                    </div>
+                    <div class="cart-item">
+                        <img src="product2.jpg" alt="Wireless Headphones">
+                        <div class="item-details">
+                            <h3>Wireless Headphones</h3>
+                            <p>Price: $129.99</p>
+                            <div class="quantity">
+                                <button class="quantity-btn">-</button>
+                                <input type="number" value="1" min="1">
+                                <button class="quantity-btn">+</button>
+                            </div>
+                        </div>
+                        <button class="remove-item">Remove</button>
+                    </div>
+                </div>
+                <div class="cart-summary">
+                    <h3>Order Summary</h3>
+                    <p>Subtotal: $829.98</p>
+                    <p>Shipping: $10.00</p>
+                    <p>Tax: $66.40</p>
+                    <h4>Total: $906.38</h4>
+                    <a href="checkout.html" class="cta-button">Proceed to Checkout</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p class="copyright">&copy; 2024 Pocket Shop. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
